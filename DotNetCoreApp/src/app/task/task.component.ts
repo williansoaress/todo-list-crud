@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TaskComponent implements OnInit {
 
-  Tasks: any;
+  Tasks: any = [];
 
   constructor(private http: HttpClient) { }
 
